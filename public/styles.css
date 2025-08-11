@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; margin: 20px; background: #f4f4f4; }
+h1 { text-align: center; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+.card { background: #fff; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.card img { width: 100%; border-radius: 8px; }
+.btn { display: inline-block; padding: 8px 12px; background: #ff5a5f; color: white; border-radius: 4px; text-decoration: none; }
+form { display: flex; flex-direction: column; gap: 10px; max-width: 400px; margin: auto; }
+form input, form button { padding: 10px; }
